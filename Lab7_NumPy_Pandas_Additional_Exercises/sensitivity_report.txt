@@ -1,0 +1,37 @@
+
+STATISTICAL ROBUSTNESS AND SENSITIVITY ANALYSIS
+================================================
+
+Selected Features:
+[11, 254, 383, 469, 472]
+
+Bootstrap Repetitions:
+250
+
+Preparation Strategies:
+1. Available-case analysis
+2. Median imputation using full dataset medians
+
+Largest Change in Mean Difference:
+0.089962
+
+Features with Changed Difference Sign:
+[]
+
+Features with Changed Ranking:
+[]
+
+Reproducibility Verified:
+True
+
+INTERPRETATION:
+The analysis compared manufacturing outcome differences
+under available-case analysis and median imputation.
+
+Differences in mean estimates and feature rankings indicate
+the sensitivity of the results to data preparation.
+
+The bootstrap confidence intervals describe the uncertainty
+associated with the estimated mean differences.
+
+The same random seed was used to verify reproducibility.
